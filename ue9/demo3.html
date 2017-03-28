@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<title> getElementbyId</title>
+	</head>
+	<body>
+		<p id="paral" style="cursor:pointer;"> some text</p>
+		<script>
+		document.getElementbyId("paral").onclick = changeText;
+		
+		function changeText()
+		{
+			document.getElementbyId("paral").innerHTML = "Some <b> new Text </b> here";
+		}
+		</script>
+	</body>
+</html>
